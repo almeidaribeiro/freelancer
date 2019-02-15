@@ -1,3 +1,238 @@
-/*
- * Estilos de tu proyecto
- */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+body{
+	margin: 0px;
+}
+
+.top{
+	padding: 40px;
+	height: 60px;
+	display: flex;
+	background-color: #2c3e50;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color:white;
+	justify-content: space-between;
+}
+
+.start{
+	padding: 10px;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+.menu{
+	padding: 40px;
+}
+
+.menu:hover{
+	color: #18bc9c;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.img{
+	margin: 80px;
+	text-align: center;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	font-size: 70px;
+	color:white;
+
+}
+
+.green {
+	padding: 5px 5px 20px;
+	text-align: center;
+	background-color:#18bc9c;
+	
+}
+
+.boot{
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 70px;
+	color:white;
+}
+
+.text-1{
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 100px;
+	color:white;
+
+}
+
+.text-2{
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color:white;
+
+}
+
+.portfolio{
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #2c3e50;
+	text-align: center;
+}
+
+.white-title{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.frase{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.frase >p{
+	width: 345px;
+	margin: 0px 20px 20px;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.btn-about{
+	padding: 20px 25px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	border: solid 1px white;
+	border-radius: 4px;
+}
+
+.button-color{
+	background-color: #18bc9c;
+	color: white;
+}
+
+.button-color:hover{
+	background-color: white;
+	color: black;
+}
+
+.fa-download{
+	padding-right: 16px;
+}
+
+.white {
+	
+	 text-align: center;
+	 background-color: white;
+}
+
+.container-img-1{
+	display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 10px;
+}
+
+.container-img-2{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 10px;
+    
+}
+  
+.img-port{
+	display: inline-flex;
+	width: 330px;
+	height: 239px;
+	padding: 20px; 
+
+}
+
+form{
+	font-size: 30px;	
+	background-color: transparent;
+	margin: 0px 390px;
+	text-align: left;
+	
+}
+
+
+form input{
+	width: 100%;
+	border: none;
+	border-bottom: solid 1px grey;
+	padding-bottom: 20px;
+
+}
+
+form textarea{
+	width: 100%;
+	resize: none;
+	border: none;
+	border-bottom: solid 1px grey;
+	padding-bottom: 20px;
+
+}
+
+.button-form{
+	display: block;
+	background-color: #18bc9c;
+	border-radius: 10px;
+	border-style: solid;
+	width: 100px;
+	height: 55px;
+	color: white;
+}
+
+.final{
+	background-color: #2c3e50;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color:white;
+	display: flex;
+	justify-content: space-evenly;
+	height: 250px;;
+}
+
+.location{
+	display: inline-block;
+	text-align: center;
+	height: 141px;
+	width: 380px;
+	font-size: 20px;
+}
+
+#link-2{
+	text-decoration: none;
+	color:  #18bc9c;
+}
+
+.icon{
+	display: block;
+	width: 30px;
+	height: auto;
+   	border: 2px solid;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+#social{
+	display: inline-flex;
+}
+
+.footer{
+	background-color: #212529;
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+}
