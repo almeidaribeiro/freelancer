@@ -1,6 +1,6 @@
 # Freelancer
 
-Projeto apresentado ao Bootcamp Laboratoria Fevereiro de 2019. 
+Projeto apresentado ao Bootcamp Laboratoria em Fevereiro de 2019. 
 
 Para o desafio, foi criado um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos necessários para escrever o código.
 
